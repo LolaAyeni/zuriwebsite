@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Averta; src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Averta, sans-serif;
+}
+.container{
+  background-image: url(../zuriwebsite/images/landingpages/landing-bg.svg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  padding: 30px;
+  justify-content: center;
+  padding-bottom: 200px;
+  max-width: 1440px;
+}
+.logo{
+  align-items: center;
+  text-align: center;
+  margin: 60px auto;
+  margin-bottom: 90px;
+}
+.firstD{
+  margin: 30px auto;
+  width: 100%; 
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 700;
+  color: #514949;
+  margin-bottom: 40px;
+}
+a {
+  color: #E7332B;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #eb5850;
+}
+.prgh{
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+  line-height: 22px;
+}
+p{
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 80px;
+  color: #6c757d;
+}
+.btn{
+  align-items: center;
+  text-align: center;
+}
+button{
+  margin: 10px;
+  padding: 15px 30px;
+  outline-color: #dc3545;
+  color: #dc3545;
+}
+.btn1{
+  background-color: #dc3545;
+  color: #f8f9fa;
+  border: none;
+}
+.btn2{
+  background-color: #f8f9fa;
+  outline-color: #dc3545;
+  color: #dc3545;
+  border: solid 1px #dc3545;
+}
+.btn1:hover{
+  background-color: #f8f9fa;
+  outline-color: #dc3545;
+  border: solid 1px #dc3545;
+  color: #dc3545;
+}
+.btn2:hover{
+  background-color: #dc3545;
+  color: #f8f9fa;
+}
+
+/* secondary colors */
+.red{
+  color: ;
+}
+
+/* second section */
+section.sec{
+  background-color: #fff;
+  overflow: hidden;
+}
